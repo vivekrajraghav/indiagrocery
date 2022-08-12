@@ -1,0 +1,281 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#invisi{ display: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#logo img {
+    height: 60px;
+    border: solid white 2px;
+    background-color: #f9f98a;
+    margin-left: 12px;
+    border-radius: 8px;
+}
+
+#navbar {
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: left;
+
+
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 3px 33px;
+    font-size: 2rem;
+}
+
+#navbar li a:hover {
+    background-color: White;
+    color: black;
+    border-radius: 5px;
+}
+
+
+#cart img {
+    height: 70px;
+    margin-right: 16px;
+    filter: invert(1);
+    cursor: pointer;
+}
+
+
+
+.center {
+    text-align: center;
+}
+
+#home {
+    color: white;
+    font-family: 'Bree Serif', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 749px;
+    padding-top: 0px;
+}
+
+#home::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(../image/bg/bg1.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 834px;
+    z-index: -1;
+    filter: brightness(0.85);
+}
+
+#home p {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.hprimary {
+    font-family: 'Bree Serif', serif;
+    font-size: 4rem;
+    border: solid white 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.hsecondary {
+    font-family: 'Bree Serif', serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+}
+
+
+
+
+.btn {
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px;
+    border: solid 2px white;
+    background-color: #0f0f0f6e;
+    margin: 6px 3px;
+}
+
+.btn:hover {
+    background-color: rgba(70, 65, 65, 0.493);
+}
+
+#grocery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+#grocery .box {
+    border: solid rgba(0, 0, 0, 0.58) 2px;
+    height: 400px;
+    width: 30%;
+    border-radius: 24px;
+    margin: 20px 20px;
+    background-color: #dcdcdc;
+    cursor: pointer;
+
+}
+
+#grocery .box:hover {
+    box-shadow: 5px 5px 8px 8px rgb(107, 105, 105);
+}
+
+.secondary {
+    margin-top: 5px;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
+
+.box img {
+    display: block;
+    height: 350px;
+    width: 427px;
+    margin: auto;
+}
+
+#item-8 img {
+    width: 200px;
+    margin-top: 5px;
+}
+
+.line {
+    border: solid 2px black;
+}
+
+#brandstore {
+    height: 845px;
+}
+
+#brandstore::before {
+    content: "";
+    background: url(../image/bg/bg6.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(0.85);
+}
+
+.heading3 {
+    font-family: 'Bree Serif', serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    padding-top: 90px;
+}
+
+#brands {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+
+}
+
+.brand-box {
+    margin: 10px 25px;
+    border: solid rgba(0, 0, 0, 0.553) 2px;
+    border-radius: 50%;
+    background-color: rgba(253, 253, 254, 0.9);
+}
+
+.brand-box:hover {
+    box-shadow: 5px 5px 8px 8px rgb(227, 224, 224);
+}
+
+.brand-box img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+#delivery img {
+    width: 82%;
+    height: 580px;
+    margin-top: 100px;
+
+}
+
+#ordering {
+    border: black solid 2px;
+    background-color: rgb(76, 75, 75);
+}
+
+#ordering:hover {
+    background-color: rgba(76, 75, 75, 0.90);
+}
+
+#delivery p {
+    color: black;
+    font-size: 2rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    border: solid black 2px;
+    border-radius: 23px;
+    width: 70%;
+    height: 660px;
+    margin: auto;
+    padding: 0px 60px;
+    text-align: justify;
+    background-color: rgb(230, 207, 252);
+
+}
+footer div {
+    margin-top: 85px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    padding: 4px 0px;
+    background-color: black;
+
+}
