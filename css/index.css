@@ -48,7 +48,7 @@ html {
 }
 
 #navbar li a {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
     padding: 3px 33px;
     font-size: 2rem;
