@@ -2,8 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-#invisi{ display: none;
-}
 * {
     margin: 0;
     padding: 0;
@@ -48,7 +46,7 @@ html {
 }
 
 #navbar li a {
-    text-decoration: underline;
+    text-decoration: none;
     color: white;
     padding: 3px 33px;
     font-size: 2rem;
@@ -221,6 +219,8 @@ html {
     background-color: rgba(253, 253, 254, 0.9);
 }
 
+#invisi{ display: none;
+}
 .brand-box:hover {
     box-shadow: 5px 5px 8px 8px rgb(227, 224, 224);
 }
