@@ -51,11 +51,15 @@ html {
     padding: 3px 33px;
     font-size: 2rem;
 }
+#underhome { 
+    text-decoration: underline;
+}
 
 #navbar li a:hover {
     background-color: White;
     color: black;
     border-radius: 5px;
+    text-decoration: underline;
 }
 
 
